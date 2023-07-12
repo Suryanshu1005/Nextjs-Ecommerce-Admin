@@ -23,6 +23,31 @@ export function MainNav ({
             active : pathName === `/${params.storeId}/billboards`
         },
         {
+            href : `/${params.storeId}/categories`,
+            lables : 'Categories',
+            active : pathName === `/${params.storeId}/categories`
+        },
+        {
+            href : `/${params.storeId}/sizes`,
+            lables : 'Sizes',
+            active : pathName === `/${params.storeId}/sizes`
+        },
+        {
+            href : `/${params.storeId}/colors`,
+            lables : 'Colors',
+            active : pathName === `/${params.storeId}/colors`
+        },
+        {
+            href : `/${params.storeId}/products`,
+            lables : 'Products',
+            active : pathName === `/${params.storeId}/products`
+        },
+        {
+            href : `/${params.storeId}/orders`,
+            lables : 'Orders',
+            active : pathName === `/${params.storeId}/orders`
+        },
+        {
             href : `/${params.storeId}/settings`,
             lables : 'Settings',
             active : pathName === `/${params.storeId}/settings`
